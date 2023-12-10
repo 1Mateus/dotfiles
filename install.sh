@@ -146,6 +146,8 @@ brew install git-lfs
 # "$HOME"/.tmux/plugins/tpm/bin/install_plugins || true
 # tmux kill-session -t __noop >/dev/null 2>&1 || true
 
+brew install nvm
+
 # Remove outdated versions from the cellar.
 brew cleanup
 brew doctor
